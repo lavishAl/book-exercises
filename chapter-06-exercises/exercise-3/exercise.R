@@ -1,8 +1,18 @@
-# Exercise 3: writing and executing functions
+# Exercise 3 ch 6: writing and executing functions
 
 # Define a function `add_three` that takes a single argument and
 # returns a value 3 greater than the input
+add_three <- function(number){
+  return(number + 3)
+}
 
+
+make_add_three <- function(num_ber){
+  add_three <- paste(num_ber * 3)
+  return(add_three)
+  
+}
+  
 
 # Create a variable `ten` that is the result of passing 7 to your `add_three` 
 # function
