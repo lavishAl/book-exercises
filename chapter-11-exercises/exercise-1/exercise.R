@@ -11,8 +11,9 @@ library(fueleconomy)
 
 # You should now have access to the `vehicles` data frame
 # You can use `View()` to inspect it
-
-
+install.packages("dplyr")
+library("dplyr")
+install.packages()
 # Select the different manufacturers (makes) of the cars in this data set. 
 # Save this vector in a variable
 
@@ -51,4 +52,6 @@ library(fueleconomy)
 
 
 # What was the most efficient Honda model of 1995?
+
+
 
