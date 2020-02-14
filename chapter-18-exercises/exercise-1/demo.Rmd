@@ -1,0 +1,17 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+This is the code we will look at in class. This
+isr just plain old Markdown that lets you render
+text in **bold** or _italics_. However, you can
+put in a block of R code, and the document will
+show the code and the results!
+
+img
+
+```{r example}
+numbers <- runif(1:100) # make random numbers
+hist(numbers) # show histogram of the numbers
+
